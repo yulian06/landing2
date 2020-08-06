@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a { text-decoration: none;}
+ul, ol {list-style-type: none;}
+header {
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+.topMenu {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    font-size: 20px;
+}
+.navTop {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.navTop a {
+    color: #000;
+    padding-bottom: 20px;
+}
+.navTop a:hover {
+    border-bottom: 2px solid #000;
+}
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+.section1 img {
+    max-width: 100%;
+}
+.section2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.advantages {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.item {
+    width: 30%;
+    padding-bottom: 100px;
+}
+.section3 {
+    width: 100%;
+    background-image: url(./image/backgroundSection3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: #4a4a4a;
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    color: #8e8e8e;
+}
+.wrapper {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.wrapper:first-child {
+    align-items: center;
+}
+.wrapper div {
+    width: 48%;
+}
+.wrapper h2 { 
+    font-size: 60px;
+}
+.wrapper p { 
+    font-size: 30px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    font-size: 20px;
+    padding: 50px 0;
+}
+footer > ul {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin-bottom: 30px;
+}
+footer > ul a {
+    color: #fff;
+    padding-bottom: 20px;
+}
+footer > ul a:hover {
+    border-bottom: 2px solid #fff;
+}
+footer > img {
+    width: 400px;
+}
+.social {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-top: 30px;
+}
